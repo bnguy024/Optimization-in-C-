@@ -5,11 +5,6 @@
 #include <string>
 #include <vector>
 
-// CPSC 457 winter 2021 
-// 30009135, Brandon Nguyen 
-// Feb 02, 2021 
-// The bulk of this code is copied over from given slow-pali.cpp 
-
 // split string p_line into a vector of strings (words)
 // the delimiters are 1 or more whitespaces
 std::vector<std::string>
@@ -33,9 +28,7 @@ split( const std::string & p_line)
   }
   return res;
 }
-// ==================================================
-// code below was given to me by the instructor Pavol
-//==================================================== 
+
 char buffer[1024]; // 1MB sotrage to hold results of read()
 int buff_size = 0;      // stores how many characters are stored in buffer
 int buff_pos = 0;       // position in bufffer[] where we extract next char
